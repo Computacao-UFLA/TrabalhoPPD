@@ -26,7 +26,7 @@ O trabalho poderá ser implementado em qualquer linguagem de programação que p
 Escolha do grupo para a implementação:
 - [ ] Python :pray:
 - [ ] C++
-- [ ] C
+- [x] C
 - [ ] Java :neutral_face:
 - [ ] PHP :hankey:
 - [ ] JavaScript
