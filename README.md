@@ -22,7 +22,6 @@ O trabalho deverá conter:
 Para obter dados mais precisos é necessário executar 10 vezes (para cada número de threads ou processos) e calcular o intervalo de confiança. :checkered_flag:
 
 O trabalho poderá ser implementado em qualquer linguagem de programação que possua biblioteca para trabalhar com threads e MPI: C, C++, C#, Python, Java, etc.
-
 Escolha do grupo para a implementação:
 - [ ] Python :pray:
 - [ ] C++
@@ -31,4 +30,9 @@ Escolha do grupo para a implementação:
 - [ ] PHP :hankey:
 - [ ] JavaScript
 - [ ] outra
+
+Referências: 
+- [Algoritmos Geneticos - Ricardo prudêncio](http://slideplayer.com.br/slide/3023288/)
+- [PESSINI, E.C. Algoritmos Genéticos Paralelos – Uma Implementação Distribuída
+Baseada em JavaSpaces. 2003. 82f. Dissertação (Mestrado em Ciência da Computação) – Programa de Pós-Graduação em Ciência da Computação, Universidade Federal de Santa Catarina, Florianópolis, SC, 2003.](https://repositorio.ufsc.br/handle/123456789/85977)
 
