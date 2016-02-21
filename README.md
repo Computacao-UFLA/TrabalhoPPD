@@ -1,13 +1,34 @@
-#Trabalho 1 - Implementar um algoritmo genético paralelo para resolver o problema do caixeiro viajante usando threads.
+Trabalho 1
+==========
+***Implementar um algoritmo genético paralelo para resolver o problema do caixeiro viajante usando threads***
 
-#Trabalho 2 - Implementar o algoritmo genético usando MPI.
+Trabalho 2
+==========
+***Implementar o algoritmo genético usando MPI***
 
-O trabalho deverá conter código fonte e relatório contendo decisões de projeto, o algoritmo paralelo que foi implementado, tempo de execução, speedup e eficiência para diferentes números de núcleos de processamento e análise dos resultados obtidos.
+O trabalho deverá conter:
+- [ ] código fonte :construction:
+- [ ] relatório contendo decisões de projeto
+- [ ] o algoritmo paralelo que foi implementado
+- [ ] tempo de execução
+- [ ] speedup
+- [ ] eficiência para diferentes números de núcleos de processamento
+- [ ] análise dos resultados obtidos.
 
-Na implementação com threads, a execução do programa paralelo deverá ser realizada para diferentes número de threads. 
+***obs***:one:***:*** Na implementação com threads, a execução do programa paralelo deverá ser realizada para diferentes número de threads. :warning:
 
-Na implementação com MPI, a execução do programa paralelo deverá ser realizada para diferentes números de processos.
+***obs***:two:***:***Na implementação com MPI, a execução do programa paralelo deverá ser realizada para diferentes números de processos. :warning:
 
-Para obter dados mais precisos é necessário executar 10 vezes (para cada número de threads ou processos) e calcular o intervalo de confiança.
+Para obter dados mais precisos é necessário executar 10 vezes (para cada número de threads ou processos) e calcular o intervalo de confiança. :checkered_flag:
 
 O trabalho poderá ser implementado em qualquer linguagem de programação que possua biblioteca para trabalhar com threads e MPI: C, C++, C#, Python, Java, etc.
+
+Escolha do grupo para a implementação:
+- [ ] Python :pray:
+- [ ] C++
+- [ ] C
+- [ ] Java :neutral_face:
+- [ ] PHP :hankey:
+- [ ] JavaScript
+- [ ] outra
+
