@@ -1,21 +1,39 @@
 #include <stdio.h>
-#define citys 20
+#define citys 15
+#define name "dados.txt"
+#define mode "r"
 
+int i=0,j=0,num;
+
+void readFile(int newMatrix[][citys], FILE *fp) {
+    while(!feof (fp)) {
+        fscanf(fp, "%d", &num);
+        newMatrix[i][j] = num;
+        j++;
+    }
+    fclose(fp);
+}
+
+void printMatrix(int newMatrix[][citys]) {
+    for (i = 0; i < citys; i++)
+    {
+        for (j = 0; j < citys; j++)
+        {
+            printf("%d  ", newMatrix[i][j]);
+        }
+        printf("\n");
+    }
+}
 
 int main(int argc, char const *argv[])
 {
-    //Lendo so caminhos
-    const char * filename = "dados.txt";
-    char buff[255];
+    const char * filename = name;
+    int matrix[citys][citys];
     FILE *fp;
+    fp = fopen(filename, mode);
 
-    fp = fopen(filename, "r");
-    fgets(buff, 255, (FILE*)fp);
-
-    fclose(fp);
-
-
-    printf("%s\n", buff);
+    readFile(matrix, fp);
+    printMatrix(matrix);
 
     return 0;
 }
